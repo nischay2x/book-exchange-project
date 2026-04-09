@@ -1,0 +1,5 @@
+{
+  "name": "Libris Exchange",
+  "description": "A community-driven online book exchange platform to share, discover, and request books.",
+  "requestFramePermissions": []
+}
