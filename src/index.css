@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@layer utilities {
+	.animate-slide-in {
+		animation: slide-in-right 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+	}
+}
+
+@keyframes slide-in-right {
+	from {
+		transform: translateX(100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
